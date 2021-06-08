@@ -1,0 +1,49 @@
+.total-data {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+
+    .title {
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .data-item {
+            width: 33.33%;
+            text-align: center;
+
+            .name {
+                color: #666;
+                font-size: 12px;
+            }
+
+            .num {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 40px;
+            }
+        }
+    }
+}
+
+.echarts {
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+
+    .title {
+        padding-left: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
